@@ -1,0 +1,19 @@
+tr th.col{
+    text-align: center;
+    background-image: url(imgEjeExtra2/fondo_gris.gif);
+}
+tr td{
+    text-align: center;
+}
+tr th.row{
+    background-color: #E6F3FF;
+    text-align: left;
+}
+
+table tr:nth-child(even) {
+    background-color: #FFFFCC;
+  }
+  
+  table tr:nth-child(odd) {
+    background-color: rgb(168, 164, 164);
+  }

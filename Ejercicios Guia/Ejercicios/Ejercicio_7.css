@@ -1,0 +1,30 @@
+h1{
+    font-family:'Courier New', Courier, monospace;
+    color: brown;
+    text-align: center;
+}
+h2{
+    font-family: 'Courier New', Courier, monospace;
+    color: brown;
+    text-align: center;
+}
+p.uno{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(28, 187, 7);
+    text-align:left;
+}
+p.dos{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(40, 49, 184);
+    text-align: right;
+}
+p.tres{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(233, 5, 5);
+    text-align: justify;
+}
+p.cuatro{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: darkorange;
+    text-align: center;
+}

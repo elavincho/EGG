@@ -1,0 +1,890 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprendiendo HTML y CSS</title>
+</head>
+
+<body>
+    <!--<h1>h1 encabezado</h1>-->
+    <h1>David Gonzalez</h1>
+    <!--<p>p parrafo</p>-->
+    <!--<p>strong negrita</p>-->
+    <!--<p>br salto de linea</p>-->
+    <p>Estoy <strong>aprendiendo</strong> HTML y CSS</p>
+    <br>
+    <p><strong>Estructura basica de HTML</strong></p>
+    <br>
+    <p><strong>!DOCTYPE html:</strong> Es el tipo de documento. Sin embargo, hoy día es simplemente un artefacto antiguo
+        que a
+        nadie le importa, pero que debe ser incluido para que todo funcione correctamente. Por
+        ahora, eso es todo lo que necesitas saber.</p>
+    <p><strong>html:</strong> Esta etiqueta encierra todo el contenido de la página
+        entera y, a veces, se le conoce como la etiqueta raíz (root element).</p>
+    <p><strong>head:</strong> Esta etiqueta actúa como un contenedor de todo
+        aquello que quieres incluir en la página HTML que no es contenido visible por los
+        visitantes de la página.</p>
+    <p><strong>meta charset="utf-8":</strong> esta etiqueta establece el juego de caracteres que tu documento
+        usará en utf-8, que incluye casi todos los caracteres de todos los idiomas humanos.</p>
+    <p><strong>title:</strong> establece el título de tu página, que es el título que
+        aparece en la pestaña o en la barra de título del navegador cuando la página es cargada, y
+        se usa para describir la página cuando es añadida a los marcadores o como favorita.</p>
+    <p><strong>body:</strong> Encierra todo el contenido que deseas mostrar a los
+        usuarios web que visiten tu página, ya sea texto, imágenes, videos, juegos, pistas de audio
+        reproducibles, y demás. Estos, delimitados a su vez por otras etiquetas como las que
+        hemos visto.</p>
+    <br>
+    <p><strong>Estas son algunas ETIQUETAS en HTML</strong></p>
+    <br>
+    <p><strong>h1 al h6</strong> encabezados</p>
+    <p><strong>p</strong> parrafo</p>
+    <p><strong>strong</strong> negrita</p>
+    <p><strong>br</strong> salto de linea</p>
+    <p><strong>i</strong> cursiva</p>
+    <p><strong>s</strong> tachar texto</p>
+    <p><strong>u</strong> subrayado</p>
+    <p><strong>ul</strong> lista desordenada</p>
+    <p><strong>li</strong> item de la lista</p>
+    <p><strong>"< !--" y "-- >" </strong> comentar una linea</p>
+    <p><strong>p align="left"</strong> alinear texto a la izquierda</p>
+    <p><strong>p align="center"</strong> alinear texto al centro</p>
+    <p><strong>p align="right"</strong> alinear texto a la derecha</p>
+    <br>
+    <p><strong>Renderizar:</strong> Abrir el documento en el navegador.</p>
+    <br>
+
+    <p><strong>Listas Desordenadas UL</strong></p>
+    <p>Las listas LI van dentro de la etiqueta UL</p>
+    <p>Por defecto las listas tienen viñetas</p>
+    <p><strong>Tipos de viñetas:</strong> circle, disc, square</p>
+    <p>Tipo circle</p>
+    <ul type="circle">
+        <li>Argentina</li>
+        <li>Paraguay</li>
+
+    </ul>
+    <p>Tipo disc</p>
+    <ul type="disc">
+        <li>Brasil</li>
+        <li>Chile</li>
+    </ul>
+    <p>Tipo square</p>
+    <ul>
+        <li type="square">Colombia</li>
+        <li type="square">Peru</li>
+    </ul>
+    <br>
+    <p><strong>Listas Ordenadas OL</strong></p>
+    <p>Las listas ordenadas tienen la particularidad de estar precedidos por un numero o letra.</p>
+    <br>
+    <p><strong>Ejemplo:</strong></p>
+    <p><u>Reglas de convivencia.</u></p>
+    <ol>
+        <li>Respeta a tu compañero y escucha su opinion</li>
+        <li>Trata amablemente a tu entorno</li>
+    </ol>
+    <p><strong>Las listas ordenadas tambien tienen atributos</strong></p>
+    <p><strong>Ejemplo:</strong> ol type="1"</p>
+    <p><strong>Ejemplo:</strong> ol type="!" start="10"</p>
+    <p>1 Para ordenar por numeros</p>
+    <p>a Para ordenar por letras minusculas</p>
+    <p>A Para ordenar por letras mayusculas</p>
+    <p>¡ Para ordenar por numeros romanos en minusculas</p>
+    <p>! para ordenar por numeros romanos en mayusculas</p>
+    <br>
+    <p>Puede que en algún caso deseemos comenzar nuestra enumeración por un número o letra que no
+        tiene por qué ser necesariamente el primero de todos. Para solventar esta situación, podemos
+        utilizar un segundo atributo, start, que tendrá como valor un número. Este número, que por
+        defecto es 1, corresponde al valor a partir del cual comenzamos a definir nuestra lista. Para el caso
+        de las letras o los números romanos, el navegador se encarga de hacer la traducción del número
+        a la letra correspondiente.</p>
+    <p><strong>Ejemplos:</strong></p>
+    <p><strong>Ordenamos por numeros</strong></p>
+    <ol type="1">
+        <li>Pais</li>
+        <li>Provincia</li>
+        <li>Ciudad</li>
+    </ol>
+    <p><strong>Ordenamos por Letras</strong></p>
+    <ol type="a">
+        <li>Cordoba</li>
+        <li>Mendoza</li>
+        <li>Bariloche</li>
+    </ol>
+    <p><strong>Ordenamos por Numeros Romanos empezando del 10</strong></p>
+    <ol type="i" start="10">
+        <li>China</li>
+        <li>Rusia</li>
+        <li>Japon</li>
+    </ol>
+    <br>
+    <p><strong>Anidado de Listas</strong></p>
+    <p>Ciudades del mundo</p>
+    <ul>
+        <li>Argentina</li>
+        <ol>
+            <li>Buenos Aires</li>
+            <li>Bariloche</li>
+        </ol>
+        <li>Paraguay</li>
+        <ol>
+            <li>Asuncion</li>
+            <li>Coronel Oviedo</li>
+        </ol>
+    </ul>
+    <br>
+    <h2>Enlaces en HTML</h2>
+    <p>"< a href="destino">contenido</a>"</p>
+    <p>"< a href="https://eggeducacion.com/es-AR/">Home de EggEducación</a>"</p>
+    <p><strong>Enlaces con imagenes</strong></p>
+    <p>"< a href="https://eggeducacion.com/es-AR/">
+            < img src="logo.jpg"></a>"</p>
+    <p><strong>Tipos de Enlace</strong></p>
+    <p><strong>Enlaces locales:</strong> los que se dirigen a otras páginas del mismo sitio web.</p>
+    <p>"< a href="archivo.html">contenido</a>"</p>
+    <a href="manos_a_la_obra_2.html">Manos a la obra 2</a>
+    <p><strong>Enlaces remotos:</strong> los dirigidos hacia páginas de otros sitios web. Estos son los que vimos
+        en el ejemplo anterior.</p>
+    <a href="https://google.com">Google</a>
+
+    <h2>Imagenes en HTML</h2>
+    <p>La sintaxis es de la siguiente forma:</p>
+    <p>"< img src="camino_hacia_el_archivo.jpg" width="200" height"150"> "</p>
+    <p>width="200" height"150" son para cambiar el tamaño de la imagen</p>
+    <p><strong>width:</strong> ancho</p>
+    <p><strong>heigth:</strong> alto</p>
+    <p><strong>border:</strong> borde</p>
+    <p>border="0" sirve para sacar el borde de la imagen</p>
+    <img src="C:\Users\elavi\OneDrive\Imágenes\Pictures\paseitos x jardin japones\IMG_1600.JPG" alt="Jardin Japones"
+        width="200" height="150" border="0">
+    <br>
+    <h2>Tablas en HTML</h2>
+    <h4>ETIQUETAS BÁSICAS PARA TABLAS EN HTML</h4>
+    <p>Para empezar, las tablas son definidas por las etiquetas < table> y su cierre.</p>
+    <p>Dentro de estas dos etiquetas colocaremos todas las otras etiquetas de las tablas, hasta llegar a
+        las celdas. Dentro de las celdas ya es permitido colocar textos e imágenes que darán el contenido
+        a la tabla. </p>
+    <p>Las tablas son descritas por líneas de arriba a abajo (y luego por columnas de izquierda a
+        derecha). Cada una de estas líneas, llamadas filas, es definida por otra etiqueta y su cierre: < tr>
+            (table row: columna de tabla). </p>
+    <p>Asimismo, dentro de cada línea, habrá diferentes celdas. Cada una de estas celdas será definida
+        por otra etiqueta: < td> (table data). Dentro de ésta y su cierre será donde coloquemos nuestro
+            contenido, el contenido de cada celda.</p>
+    <p>También existe la etiqueta <th> (table header), que sirve para crear una celda cuyo contenido esté
+            formateado como un título o cabecera de la tabla. En la práctica, lo que hace es poner en negrita y
+            centrado el contenido de esa celda.</p>
+    <p> "< caption>: es una frase que va a estar afuera de la tabla" </p>
+    <p> "< thead>: es el encabezado de la tabla" </p>
+    <p> "< tbody>: es el cuerpo de nuesta tabla" </p>
+    <p>Dentro de la tabla se permiten atributos</p>
+    <p>"< table border="1" algin="left" bgcolor="black" style="width:100%">"</p>
+    <br>
+
+    <table>
+        <caption>Tabla 1</caption>
+        <thead>Titulo de la Tabla</thead>
+        <tbody>
+            <tr>
+                <th>Titulo Celda1</th>
+                <th>Titulo Celda2</th>
+            </tr>
+            <tr>
+                <td>Celda1, linea1</td>
+                <td>Celda2, linea1</td>
+            </tr>
+            <tr>
+                <td>Celda1, linea2</td>
+                <td>Celda2, linea2</td>
+            </tr>
+        </tbody>
+
+    </table>
+    <br>
+    <table border="1" align="left" bgcolor="green" style="width:100%">
+        <caption>Tabla de Datos Personales</caption>
+        <thead>
+            <h2>Datos Personales</h2>
+        </thead>
+        <tbody>
+            <tr>
+                <th>NOMBRE</th>
+                <th>APELLIDO</th>
+                <th>EDAD</th>
+            </tr>
+            <tr>
+                <td>David</td>
+                <td>Benitez</td>
+                <td>33</td>
+            </tr>
+            <tr>
+                <td>Mario</td>
+                <td>Gonzalez</td>
+                <td>36</td>
+            </tr>
+            <tr>
+                <td>Esteban</td>
+                <td>Varela</td>
+                <td>23</td>
+            </tr>
+        </tbody>
+
+    </table>
+    <br>
+    <table border="1" align="center" bgcolor="yellow" style="width:75%">
+        <caption>Tabla Vertical</caption>
+        <thead>
+            <h2>Datos Personales</h2>
+        </thead>
+        <tbody>
+            <tr>
+                <th>NOMBRE</th>
+                <td>Juan</td>
+                <td>Pablo</td>
+                <td>Pedro</td>
+            </tr>
+            <tr>
+                <th>APELLIDO</th>
+                <td>Perez</td>
+                <td>Lopez</td>
+                <td>Vera</td>
+            </tr>
+            <tr>
+                <th>EDAD</th>
+                <td>23</td>
+                <td>43</td>
+                <td>32</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <h2>Formularios en HTML</h2>
+    <h3>¿CÓMO HACER UN FORMULARIO EN HTML?</h3>
+    <p>"Los formularios son definidos por medio de las etiquetas form> y su cierre. Entre estas dos
+        etiquetas colocaremos todos los campos y botones que componen el formulario. Dentro de esta
+        etiqueta form> debemos especificar algunos atributos:"</p>
+    <p>action: define el tipo de acción a llevar a cabo con el formulario. Como ya hemos dicho, existen
+        dos posibilidades:</p>
+    <ul>
+        <li>El formulario es enviado a una dirección de correo electrónico. Para esto hay que poner el
+            mail en el action. </li>
+        <li>El formulario es enviado a un programa o script que procesa su contenido. Esta es la
+            posibilidad que más nos interesa y abordaremos en otro módulo.</li>
+    </ul>
+    <p><strong>Ejemplo:</strong></p>
+    <p>" form action="ruta del método que va a manejar la información">
+        /form>"</p>
+    <p><strong>method:</strong> Este atributo se encarga de especificar la forma en la que el formulario es
+        enviado. Los
+        dos valores posibles que puede tomar este atributo son POST y GET. A efectos prácticos y, salvo
+        que se diga lo contrario, daremos siempre el valor POST.</p>
+    <p><strong>enctype:</strong> Se utiliza para indicar la forma en la que viajará la información que se mande
+        por el
+        formulario. En el caso más corriente, enviar el formulario por correo electrónico, el valor de este
+        atributo debe de ser "text/plain". Así conseguimos que se envíe el contenido del formulario como
+        texto plano dentro del email. Si fuéramos a enviar una imagen dentro del formulario, este atributo
+        debería ser “multipart/form-data”. También todos estos conceptos vamos a detallarlos más
+        adelante.
+    </p>
+    <p><strong>Ejemplo:</strong></p>
+    <p> " form action="ruta del método que va a manejar la información" method="POST" enctype="multipart/form-data" > "
+    </p>
+    <h2>CAMPOS DE TEXTO</h2>
+    <p>ETIQUETA INPUT: Las cajas de texto son colocadas por medio de la etiqueta < input>. Dentro de esta etiqueta hemos
+            de especificar el valor de dos atributos: type y name.</p>
+
+    <p>"< input type="text" name="nombre"> "</p>
+    <p><strong>ATRIBUTO TYPE:</strong> Como hemos visto el atributo type nos sirve para especificar el tipo de dato que
+        se va a ingresar
+        en nuestro input</p>
+    <p><strong>NUMBER</strong> Ejemplo: < input type="number">
+    </p>
+    <p><strong>DATE</strong> Ejemplo: < input type="date">
+    </p>
+    <p><strong>EMAIL</strong> Ejemplo: < input type="email">
+    </p>
+    <p><strong>CONTRASEÑA</strong> Ejemplo: < input type="password">
+    </p>
+    <h2>ATRIBUTOS PRESCINDIBLES</h2>
+    <p><strong>size:</strong> define el tamaño de la caja de texto</p>
+    <p><strong>maxlength:</strong> indica el tamaño máximo del texto</p>
+    <p><strong>value:</strong> en algunos casos puede resultarnos interesante asignar un valor predefinido al campo</p>
+    <h3>ETIQUETA LABEL</h3>
+    <p>El elemento <label> y su etiqueta de cierre, provee una descripción corta que acompaña al campo
+            de texto. Su función es indicarle al usuario que información debería ingresar en el campo o input.</p>
+    <p>"< input type="text" name="nombre">"</p>
+    <p><strong>Atributo for</strong></p>
+    <p>La etiqueta label solo consta del atributo for. Mediante la utilización del atributo for podemos
+        asociar el label con el input. Para lograr esto vamos a tener que utilizar también el atributo id, este
+        atributo lo explicamos previamente y lo vamos a ver más en detalle en la parte de CSS. </p>
+    <h3>Listas de Opciones</h3>
+    <p>Las listas de opciones son ese tipo de menús desplegables que nos permiten elegir una (o varias)
+        de las múltiples opciones que nos proponen. Para construirlas emplearemos una etiqueta
+        SELECT, con su respectivo cierre.</p>
+    <p>Como para los casos ya vistos, dentro de esta etiqueta definiremos su nombre por medio del
+        atributo name. Cada opción será incluida en una línea precedida de la etiqueta OPTION.
+    </p>
+    <p><strong>Atributos de la Etiqueta Select</strong></p>
+    <p><strong>size:</strong> indica el número de valores mostrados a la vez en la lista.</p>
+    <p><strong>multiple:</strong> permite la selección de más elementos de la lista</p>
+    <p>"< select name="estacion" size="3" multiple>
+            < /select>"</p>
+    <p><strong>Atributo para la etiqueta option</strong></p>
+    <p>La etiqueta < option> puede asimismo ser modificada por medio de otro atributo.
+            selected: del mismo modo que multiple, este atributo no toma ningún valor, sino que simplemente
+            indica que la opción que lo presenta esta elegida por defecto.
+    </p>
+    <p>"< option selected>Otoño< /option>"</p>
+    <h3>BOTONES DE RADIO</h3>
+    <p>Existe otra alternativa para plantear una elección, en este caso, obligamos al usuario a elegir
+        únicamente una de las opciones que se le proponen.
+        La etiqueta empleada en este caso es < input> en la cual usaremos el atributo type con el valor
+            radio. Este atributo colocara una casilla pinchable al lado del valor del input.
+    </p>
+    <p><strong>Ejemplos:</strong></p>
+    <p>"< input type="radio" name="estacion" value="1">Primavera "</p>
+    <p>"< input type="radio" name="estacion" value="2">Verano "</p>
+    <h3>CAJAS DE VALIDACIÓN</h3>
+    <p>Este tipo de elementos pueden ser activados o desactivados por el visitante por un simple click
+        sobre la caja en cuestión. Para esto vamos a usar la etiqueta INPUT con el valor checkbox en el
+        atributo type. </p>
+    <p>"< input type="checkbox" name="estacion" value="1">Primavera "</p>
+    <h3>BOTÓN DE ENVÍO DE FORMULARIO (BOTÓN SUBMIT)</h3>
+    <p>Para dar por finalizado el proceso de relleno del formulario y hacerlo llegar a su gestor, el usuario
+        ha de enviarlo por medio de un botón previsto a tal efecto. Para esto vamos a utilizar la etiqueta
+        < button> y su respectivo cierre. Dentro el elemento button se puede poner texto (y etiquetas
+            como < i>, < b>, < strong>, < br>, < img>, etc.). Se vería así:
+    </p>
+    <p>"< button type="submit">Enviar< /button> "</p>
+    <p>Como puede verse, tan solo hemos de especificar que se trata de un botón de envío
+        (type="submit") y hemos de definir el mensaje que queremos que aparezca escrito en el botón</p>
+    <h3>BOTÓN DE BORRADO (BOTÓN DE RESET)</h3>
+    <p>Este botón nos permitirá borrar el formulario por completo, en el caso de que el usuario desee
+        rehacerlo desde el principio. Su estructura sintáctica es parecida a la anterior:</p>
+    <p>"< button type="reset">Borrar< /button>"</p>
+    <h3>BOTONES NORMALES</h3>
+    <p>Dentro de los formularios también podemos colocar botones normales, pulsables como cualquier
+        otro botón. Estos botones por si solos no tienen mucha utilidad, pero podremos necesitarlos para
+        realizar acciones en el futuro. Su sintaxis es la siguiente:</p>
+    <p>"< button type="button">Aceptar< /button>"</p>
+    <h3>DATOS OCULTOS (CAMPOS HIDDEN)</h3>
+    <p>En algunos casos, aparte de los propios datos rellenados por el usuario, puede resultar práctico
+        enviar datos definidos por nosotros mismos que ayuden al programa en su procesamiento del
+        formulario. Este tipo de datos, que no se muestran en la página, pero si pueden ser detectados
+        solicitando el código fuente, no son frecuentemente utilizados por páginas construidas en HTML,
+        son más bien usados por páginas que emplean tecnologías de servidor. No se asusten, veremos
+        más adelante qué quiere decir esto. Tan solo queremos dar constancia de su existencia y de su
+        modo creación. </p>
+    <p>"< input type="hidden" name="instituto" value="Egg Educación">"</p>
+
+    <br>
+
+    <section>
+        <div>
+            <form action="/controlador-registro" method="POST" class="form-registro" enctype="multipart/form-data">
+                <h3>Formulario</h3>
+                <div>
+                    <label for="nombre"></label>
+                    </input name="nombre" type="text" placehoder="Nombre y Apellido" required>
+                </div>
+                <div>
+                    <label for="mail"></label>
+                    </input name="mail" type="mail" placehoder="pepito@honguito.com" required>
+                </div>
+                <div>
+                    <label for="number"></label>
+                    </input name="number" type="number" placehoder="1234567890" required>
+                </div>
+                <div>
+                    <label for="contrasenia"></label>
+                    </input name="contrasenia" type="password" placehoder="tu password" required>
+                </div>
+                <h3>Radio Button</h3>
+                <div>
+                    <label for="femenino">Femenino</label>
+                    <input name="femenino" type="radio" value="f" />
+                    <label for="masculino">Masculino</label>
+                    <input name="masculino" type="radio" value="m" />
+                    <label for="other">Otro</label>
+                    <input name="other" type="radio" value="o" />
+                </div>
+                <h3>CheckBox</h3>
+                <div>
+                    <label for="femenino">Femenino</label>
+                    <input name="femenino" type="checkbox" value="f" />
+                    <label for="masculino">Masculino</label>
+                    <input name="masculino" type="checkbox" value="m" />
+                    <label for="other">Otro</label>
+                    <input name="other" type="checkbox" value="o" />
+                </div>
+                <h3>Seleccion Multiple</h3>
+                <div>
+                    <label for="pais">Pais de Origen</label>
+                    <select name="pais">
+                        <option value="arg">Argentina</option>
+                        <option value="par">Paraguay</option>
+                        <option value="chi">Chile</option>
+                    </select>
+                    <h3>Calendario</h3>
+                    <div>
+                        <label for="date"></label>
+                        <input type="date" type="date" />
+                    </div>
+                    <h3>Agregar imagen</h3>
+                    <div>
+                        <label for="image"></label>
+                        <input name="image" type="file" />
+                    </div>
+                    <h3>Boton</h3>
+                    <button type="submit">enviar info</button>
+                </div>
+            </form>
+        </div>
+
+    </section>
+    <h3>ETIQUETA TEXTAREA PARA TEXTO LARGO</h3>
+    <p>Si deseamos poner a disposición del usuario un campo de texto donde pueda escribir
+        cómodamente sobre un espacio compuesto de varias líneas, hemos de invocar una nueva
+        etiqueta: < textarea> y su cierre correspondiente.</p>
+    <p>Dentro de la etiqueta textarea deberemos indicar, como para el caso visto anteriormente, el
+        atributo name para asociar el contenido a un nombre que será asemejado a una variable en un
+        lenguaje de programación. Además, podemos definir las dimensiones del campo a partir de los
+        atributos siguientes:</p>
+    <ul>
+        <li><strong>rows:</strong> define el número de líneas del campo de texto.</li>
+        <li><strong>cols:</strong>define el número de columnas del campo de texto.</li>
+    </ul>
+    <p>La etiqueta queda por tanto de esta forma:</p>
+    <p>"< textarea name="comentario" rows="10" cols="40">
+            < /textarea> "</p>
+    <p>Asimismo, es posible predefinir el contenido del campo. Para ello, no usaremos el atributo value,
+        sino que escribiremos dentro de la etiqueta el contenido que deseamos atribuirle. </p>
+    <p>"< textarea name="comentario" rows="10" cols="40">Escribe tu comentario…< /textarea>" </p>
+
+<h3>SECCIONES EN HTML</h3>
+
+<a><img src="pagina dividida.png" width="800" height"750"></a>
+<br>
+<p><strong>header:</strong> encabezado:   representa un grupo de artículos introductorios o de navegación. Está destinado a
+    contener por lo general la cabecera de la sección (un elemento h1-h6 o un elemento hgroup). </p>
+<p><strong>nav:</strong> navegacion:   se utiliza para representar una sección "general" dentro de un documento o aplicación,
+    como un capítulo de un libro. Puede contener subsecciones y si lo acompañamos de h1-h6
+    podemos estructurar mejor toda la página creando jerarquías del contenido, algo muy favorable
+    para el buen posicionamiento web. </p>
+<p><strong>article:</strong> articulo:   representa un componente de una página que consiste en una composición autónoma
+    en un documento, página, aplicación, o sitio web con la intención de que pueda ser reutilizado y
+    repetido.</p>
+<p><strong>section:</strong> seccion:   se utiliza para representar una sección "general" dentro de un documento o aplicación,
+    como un capítulo de un libro. Puede contener subsecciones y si lo acompañamos de h1-h6
+    podemos estructurar mejor toda la página creando jerarquías del contenido, algo muy favorable
+    para el buen posicionamiento web. </p>
+<p><strong>aside:</strong> aparte:    representa una sección de la página que abarca un contenido relacionado con el
+    contenido que lo rodea, por lo que se le puede considerar un contenido independiente. Este
+    elemento puede utilizarse para efectos tipográficos, barras laterales, elementos publicitarios u otro
+    contenido que se considere separado del contenido principal de la página. </p>
+<p><strong>footer:</strong> pie de pagina:   representa el pie de una sección, con información acerca de la página/sección que poco
+    tiene que ver con el contenido de la página, como el autor, el copyright o el año. </p>
+<p><strong>hgroup:</strong> representa el encabezado de una sección. El elemento se utiliza para agrupar un
+    conjunto de elementos h1-h6 cuando el título tiene varios niveles, tales como subtítulos o títulos
+    alternativos.</p>
+<h3>ETIQUETA DIV</h3>
+<P><strong>La etiqueta div se conoce como etiqueta de división.</strong> Esta etiqueta se usa en HTML para hacer
+    divisiones de contenido en la página web como (texto, imágenes, encabezado, pie de página,
+    barra de navegación, etc.). La etiqueta div tiene etiquetas de apertura (< div>) y de cierre (< /div>) y
+    es obligatorio cerrar la etiqueta. Div es la etiqueta más útil en el desarrollo web porque nos ayuda
+    a separar datos en la página web y podemos crear una sección particular para datos o funciones
+    particulares en las páginas web. Cabe aclarar que la etiqueta div genera un salto de línea. </P>
+    <ul>
+        <li>La etiqueta Div es una etiqueta de nivel de bloque</li>
+        <li>Es una etiqueta de contenedor genérica</li>
+        <li>Se utiliza para agrupar varias etiquetas de HTML para que se puedan crear secciones y
+            aplicarles estilo en conjunto.</li>
+    </ul>
+<p>Como hemos visto, la etiqueta DIV marca divisiones en las que definimos un bloque de contenido,
+    y a los que podríamos aplicar estilo de manera global, aunque lo correcto sería aplicar ese estilo
+    del lado del CSS. </p>
+    <h3>ETIQUETA SPAN</h3>
+    <p>El elemento span HTML es un contenedor en línea genérico para elementos y contenido en línea.
+        Se usa para agrupar elementos con fines de compartir un determinado estilo (mediante el uso de
+        los atributos de clase o id).
+        La mejor manera de usarlo es cuando no hay ningún otro elemento semántico disponible. Esta
+        etiqueta es muy similar a la etiqueta div, pero se diferencian en que div es una etiqueta a nivel de
+        bloque y span es una etiqueta en línea.
+        La etiqueta span es una etiqueta emparejada, lo que significa que tiene una etiqueta de apertura
+        (<) y de cierre (>), y es obligatorio cerrar la etiqueta.
+        La etiqueta span se utiliza para agrupar elementos en línea y no realiza ningún cambio visual por sí
+        misma.</p>
+        <p><strong>Ejemplo:</strong></p>
+        <p>"< p>Yo estudio en < span style="color: yellow">Egg< /span> Programación FullStack < /p>"</p>
+        <p>Yo estudio en <span style="color: yellow">Egg</span> Programación FullStack</p>
+
+<br>
+<h1>CSS</h1>
+<p>CSS es el acrónimo de <strong>Cascading Style Sheets</strong>Cascading Style Sheets, o lo que sería en español Hojas de Estilo en
+    Cascada. Es un lenguaje que sirve para especificar el estilo o aspecto de las páginas web. CSS se
+    define en base a un estándar publicado por una organización llamada W3C, que también se
+    encarga de estandarizar el propio lenguaje HTML.</p>
+    <h3>VENTAJAS Y CARACTERISTICAS DE CSS</h3>
+    <p>Podemos aplicar CSS a muchos niveles, desde un sitio web entero hasta una pequeña etiqueta.
+        Estos son los principales bloques de acción.</p>
+
+        <ul>
+          
+            <li><strong>Una web entera:</strong> de modo que se puede definir en un único lugar el estilo de toda una
+               web, de una sola vez.</li>
+            <li><strong>Un documento HTML o página en particular:</strong> se puede definir la forma de cada uno de
+                los bloques de contenido de una página, en una declaración que afectará a un solo
+                documento de un sitio web.</li>
+            <li><strong>Una porción del documento:</strong> aplicando estilos visibles en un trozo de la página, como
+                podría ser la cabecera.</li>
+            <li><strong>Una etiqueta en concreto:</strong> llegando incluso a poder definir varios estilos diferentes para
+                una sola etiqueta. Esto es muy importante ya que ofrece potencia en nuestra programación. </li>
+        </ul>
+
+        <ul>
+            <li>Podemos definir la distancia entre líneas del documento.</li>
+            <li>Se puede aplicar identado (sangrado) a las primeras líneas del párrafo.</li>
+            <li>Podemos colocar elementos en la página con mayor precisión, y sin lugar a errores.</li>
+            <li>Y mucho más, como definir la visibilidad de los elementos, márgenes, subrayados,
+                tachados, etc.</li>
+        </ul>
+        <h3>UNIDADES DE MEDIDA EN CSS</h3>
+        <ul>
+            <li>Pixeles (px) y porcentaje (%), como antes.</li>
+            <li>Pulgadas (in).</li>
+            <li>Puntos (pt).</li>
+            <li>Centímetros (cm).</li>
+        </ul>
+        <h3>SINTAXIS EN CSS</h3>
+        <P>La meta básica del lenguaje Cascading Stylesheet (CSS) es permitir al motor del navegador pintar
+            elementos de la página con características específicas, como colores, posición o decoración. La
+            sintaxis CSS refleja estas metas y estos son los bloques básicos de construcción.</P>
+            <ul>
+                <li>La propiedad que es un identificador, un nombre leíble por humanos, que define qué
+                    característica es considerada.</li>
+                 <li>El valor que describe como las características deben ser manejadas por el motor. Cada
+                    propiedad tiene un conjunto de valores válidos, definido por una gramática formal, así
+                    como un significado semántico, implementados por el motor del navegador.</li>
+            </ul>
+
+            <h3>DECLARACIONES DE CSS</h3>
+
+            <p>La función principal de CSS es configurar determinadas propiedades con valores específicos. 
+                Este par <strong>(propiedad y valor)</strong> es llamado una declaración. </p>
+            <p>Ambos propiedades y valores son sensibles a mayúsculas y minúsculas en CSS. 
+                <strong>El par se separa por dos puntos, “ : ”,</strong> y espacios en blanco antes, 
+                entre ellos y después.</p>
+            <img src="declaracion css.png" alt="declaracion_css">
+            <p>Hay más de 100 propiedades diferentes en CSS y cerca de un número infinito de diferentes
+valores. No todos los pares de propiedades y valores son permitidos, cada propiedad define qué
+valores son válidos. Cuando un valor no es válido para una propiedad específica, la declaración es
+considerada inválida y es completamente ignorada por el motor del CSS.</p>
+<h3>BLOQUES DE DECLARACIONES EN CSS</h3>
+<p>Las declaraciones son agrupadas en bloques, que es una estructura delimitada por una llave de
+    apertura, ‘{‘, y una de cierre, ‘}’. Los bloques en ocasiones pueden anidarse, por lo que las llaves
+    de apertura y cierre deben de coincidir.</p>
+    <img src="bloque css con declaraciones.png" alt="bloque_con_declaraciones">
+    <p>Esos bloques son naturalmente llamados bloques de declaraciones y las declaraciones dentro de
+        ellos están separadas por un punto y coma, “ ; ”. Un bloque de declaración puede estar vacío, que
+        es contener una declaración nula. Los espacios en blanco alrededor de las declaraciones son
+        ignorados. En cuanto a la última declaración de un bloque, esta no necesita terminar en un punto y
+        coma, aunque es usualmente considerado una buena práctica porque previene el olvidar
+        agregarlo cuando se extienda el bloque con otra declaración.</p>
+        <h3>¿QUÉ PARTES CONFORMAN A UNA DECLARACIÓN CSS?</h3>
+        <p>CSS define una serie de términos que permiten describir cada una de las partes que componen
+            los estilos CSS. El siguiente esquema muestra las partes que forman un estilo CSS muy básico:</p>
+        <img src="reglacss.png" alt="reglacss">
+        <p>Los diferentes términos se definen a continuación: </p>
+        <p><strong>Regla:</strong> cada uno de los estilos que componen una hoja de estilos CSS.</p>
+        <p><strong>Selector:</strong> indica el elemento o elementos HTML a los que se aplica la regla CSS.</p>
+        <p><strong>Declaración:</strong> especifica los estilos que se aplican a los elementos. Está compuesta por una o más
+            propiedades CSS.</p>
+        <p><strong>Propiedad:</strong> permite modificar el aspecto de una característica del elemento. </p>
+        <p><strong>Valor:</strong> indica el nuevo valor de la característica modificada en el elemento.</p>
+        <h2>PINCLUIR CSS A NUESTRO HTML</h2>
+        <p>CSS sirve para definir el aspecto de las páginas web, eso ya debe haber quedado claro. No
+            obstante, hay diferentes niveles a los que podemos aplicar los estilos. Vamos a ir por orden,
+            describiendo los puntos desde el más específico al más general, de manera que también iremos
+            aumentando la dificultad e importancia de los distintos usos.</p>
+        <h3>PEQUEÑAS PARTES DE LA PÁGINA</h3>
+        <p>Para definir estilos en secciones reducidas de una página <strong>se puede utilizar el atributo style</strong> en la
+            etiqueta sobre la que queremos aplicar estilos. Como valor de ese atributo indicamos en sintaxis
+            CSS las características de estilos. Lo vemos con un ejemplo, pondremos un párrafo en el que
+            determinadas palabras las vamos a visualizar en color verde</p>
+        <p>" < p> Yo estudié en < span style="color: yellow"> Egg Education < /span> programación < /p> "</p>
+        <h3>ESTILO DEFINIDO PARA UNA ETIQUETA</h3>
+        <p>De este modo podemos hacer que toda una etiqueta muestre un estilo determinado. Por ejemplo,
+            podemos definir un párrafo entero en color rojo y otro en color azul. Para ello utilizamos el
+            atributo style, que es admitido por todas las etiquetas del HTML.</p>
+        <img src="estilo_definido_etiqueta.png" alt="estilo_etiqueta">
+        <h3>ESTILO DEFINIDO EN UNA PARTE DE LA PÁGINA</h3>
+        <p>Con la etiqueta < div> podemos definir secciones de una página y aplicarle estilos con el
+            atributo style, es decir, podemos definir estilos de una vez a todo un bloque de la página.</p>
+        <img src="estilo_definido_parte_de_una_pagina.png" alt="estilo_parte_pagina">
+        <h3>ESTILO DEFINIDO PARA TODA UNA PÁGINA</h3>
+        <p>Podemos definir, en la cabecera del documento, estilos para que sean aplicados a toda la página.
+            Es una manera muy cómoda de darle forma al documento y muy potente, ya que estos estilos
+            serán seguidos en toda la página y nos ahorraremos así "ensuciar" las etiquetas HTML colocando
+            el atributo style.</p>
+        <p>Además, es común que los estilos declarados se quieran aplicar a distintas etiquetas dentro del
+            mismo documento. Gracias a la aplicación de estilos para toda la página, podemos escribir los
+            estilos una vez y usarlos para un número indefinido de etiquetas. Por ejemplo, podremos definir el
+            estilo a todos los párrafos una vez y que se aplique igualmente, sea cual sea el número de
+            párrafos del documento. Por último, también tendremos la ventaja que, si más adelante deseamos
+            cambiar los estilos de todas las etiquetas, lo haremos de una sola vez, ya que el estilo fue definido
+            una única vez de manera global.</p>
+        <p>A grandes rasgos, entre "<" style>" y "< /style >", se coloca el nombre de la etiqueta (o selector) para la
+            que queremos definir los estilos y entre llaves "-{ }-" colocamos en sintaxis CSS las características de
+            estilos. El concepto de selectores lo veremos más adelante.</p>
+        <img src="estilo_definido_toda_la_pagina.png" alt="estilo_toda_pagina">
+        <p>Como se puede apreciar en el código, hemos definido que la etiqueta < h1> se presentará subrayado y centrado</p>
+        <p>También, por ejemplo, hemos definido que el cuerpo entero de la página (etiqueta <body>) se le
+            apliquen los estilos siguientes: Color del texto negro, Color del fondo grisáceo, Margen lateral de 1 centímetro</p>
+        <h3>ESTILO DEFINIDO PARA TODO UN SITIO WEB</h3>
+        <p>Una de las características más potentes del desarrollo con hojas de estilos es la posibilidad
+            de <strong>definir los estilos de todo un sitio web en una única declaración.</strong></p>
+        <p>Esto se consigue creando un archivo de extensión <strong>.css</strong> donde tan sólo colocamos las
+            declaraciones de estilos de la página y enlazando todas las páginas del sitio con ese archivo. De
+            este modo, todas las páginas comparten una misma declaración de estilos, reutilizando el código
+            CSS de una manera mucho más potente</p>
+        <h3>¿CÓMO INCORPORAR ESTILOS DESDE UN ARCHIVO EXTERNO?</h3>
+        <p>Veamos ahora cómo el proceso para incluir estilos con un fichero externo.</p>
+        <h3>1- CREAMOS EL FICHERO CON LA DECLARACIÓN DE ESTILOS</h3>
+        <p>Es un fichero de texto normal con la extensión .css para aclararnos qué tipo de archivo es. El texto
+            que debemos incluir debe ser escrito exclusivamente en sintaxis CSS, es decir, sería erróneo
+            incluir código HTML en él: etiquetas y demás. Podemos ver un ejemplo a continuación.</p>
+        <p>El nombre de este archivo va a ser <strong>estilos.css</strong></p>
+        <ul>
+            <p>{</p>
+            <p>font-size: 12cm; -   tamaño de fuente</p>
+            <p>font-family: arial, helvetica; - tipo de letra</p>
+            <p>font-weight: normal; -   ancho de letra</p>
+            <p>}</p>   
+            <p>h1 {</p>
+            <p>font-size: 36cm; -   tamaño de fuente</p>
+            <p>font-family: verdana, arial; -   tipo de letra</p>
+            <p>text-decoration: underline;  -   decoracion de texto: subrayado</p>
+            <p>text-align: center;  -    alineacion de texto</p>
+            <p>background-color: Teal;  -   color de fondo</p>
+            <p>}</p>
+            <p>body {   -   cuerpo</p>
+            <p>background-color: #006600;   -   color de fondo</p>
+            <p>font-family: arial;  -   tipo de letra</p>
+            <p>color: White;    -   color</p> 
+            <p>}</p>   
+        </ul>
+    <h3>2- ENLAZAMOS LA PÁGINA WEB CON LA HOJA DE ESTILOS</h3>
+    <p>Para ello, vamos a colocar la etiqueta <link> dentro de la etiqueta <head></head> con los atributos
+        siguientes:</p>
+    <ul>
+        <li><strong>rel:</strong>  indica el tipo de relación que tiene el recurso enlazado y la página HTML. Para los
+            archivos CSS, siempre se utiliza el valor stylesheet.</li>
+        <li><strong>href:</strong> indica la URL del archivo CSS que contiene los estilos. La URL indicada puede ser
+            relativa o absoluta y puede apuntar a un recurso interno o externo al sitio web. </li>
+    </ul>
+    <p>Veamos una página web entera que enlaza con la declaración de estilos anterior:</p>
+    <img src="enlazar_pagina_css.png" alt="enlazar_pagina">
+    <h3>SELECTORES CCS</h3>
+    <p>Teniendo en cuenta que ya podemos asignarle estilos a todo un sitio web, mediante un archivo
+        css que usa selectores para elegir las etiquetas a las que asignarles los estilos, también tenemos
+        que entender que existen varios tipos de selectores</p>
+    <h3>SELECTOR UNIVERSAL</h3>
+    <p>Se utiliza para seleccionar todos los elementos de la página. El siguiente ejemplo elimina el
+        margen y el relleno de todos los elementos HTML (por ahora no es importante fijarse en la parte
+        de la declaración de la regla CSS):</p>
+        <ul>
+            <p>* {</p>
+            <p>margin: 0;   -   margen</p>
+            <p>padding: 0;  -   relleno</p>
+            <p>}</p>
+        </ul>
+    <h3>SELECTOR DE ETIQUETA</h3>
+    <p>Selecciona todos los elementos de la página cuya etiqueta HTML coincide con el valor del
+        selector. El siguiente ejemplo selecciona todos los párrafos de la página:</p>
+    <ul>
+        <p>* {</p>
+            <p>text-align: justify;  -    alineacion de texto: justificar</p>
+            <p>font-family: verdana;  -   tipo de letra</p>
+            <p>}</p>
+    </ul>
+    <p>El siguiente ejemplo seleciona todas las tablas div de la pagina</p>
+    <ul>
+        <p>table, div {</p>
+        <p>border: 1px solid red;</p>
+        <p>}</p>
+    </ul>
+    <h3>SELECTOR DESCENDENTE</h3>
+    <p>Selecciona los elementos que se encuentran dentro de otros elementos. Un elemento es
+        descendiente de otro cuando se encuentra entre las etiquetas de apertura y de cierre del otro
+        elemento.
+        El selector del siguiente ejemplo selecciona todos los elementos < span> de la página que se
+        encuentren dentro de un elemento < p>.</p>
+    <p>p span {color, red;}</p>
+    <h3>SELECTOR DE CLASE</h3>
+    <p>¿Como hago para aplicarle estilos solo al primer párrafo?</p>
+    <p>Una de las soluciones más sencillas para aplicar estilos a un solo elemento de la página consiste
+        en utilizar el atributo class de HTML sobre ese elemento para indicar directamente la regla CSS
+        que se le debe aplicar. Ejemplo:</p>
+    <h4>HTML</h4>
+    <ul>
+        <p>< body></p>
+        <p>< p class="destacado"> Párrafo 1< /p></p>
+        <p>< p class="error"> Párrafo 2< /p></p>
+        <P>< p> Párrafo 3< /p></P>
+        <P>< /body></P>
+    </ul>
+    <H4>CSS</H4>
+    <ul>
+        <p>.destacado {</p>
+        <p>font-size: 15px;</p>
+        <p>}</p>
+        <p>.error {</p>
+        <p>color: red;</p>
+        <p>}</p>
+    </ul>
+    <p>En nuestro archivo CSS para especificar una clase, vamos a poner punto (‘.’) y el nombre de la
+        clase que queremos que coincida que con valor que pongamos en nuestro atributo class en el
+        html. </p>
+    <p>Entonces, en el ejemplo podemos ver como el primer párrafo tiene el valor destacado y el
+        segundo párrafo el valor error para el atributo class y en nuestro archivo CSS, hemos definido un
+        estilo para esas clases.</p>
+    <p>El beneficio del atributo class, además de dejarnos asignar estilos a un solo elemento, es que
+        después podemos reutilizar esa class para asignarle ese estilo a otros párrafos concretos o a otras
+        etiquetas, solo deberemos ponerle el valor de un estilo que ya existe en el atributo class.</p>
+    <h3>SELECTOR DE ID</h3>
+    <p>En un documento HTML, los selectores de ID de CSS buscan un elemento basado en el contenido
+        del atributo id. El atributo ID del elemento seleccionado debe coincidir exactamente con el valor
+        dado en el selector. Este tipo de selectores sólo seleccionan un elemento de la página porque el
+        valor del atributo id no se puede repetir en dos elementos diferentes de una misma página.</p>
+        <h4>HTML</h4>
+        <ul>
+            <p>< div id="identificador"> ¡Este div tiene un ID especial! < /div></p>
+            <p>< div> Este solo es un div regular. < /div></p>
+        </ul>
+        <H4>CSS</H4>
+        <ul>
+            <p>#identificador{</p>
+            <p>background-color: blue;</p>
+            <p>}</p>
+        </ul>
+        
+        <p>En nuestro archivo CSS para especificar un ID, vamos a poner el numeral (‘#’) y el nombre del ID
+            que queremos que coincida que con valor que pongamos en nuestro atributo ID en el html. </p>
+        <p>Como podemos ver el ID, es muy parecido al atributo class, pero la diferencia es que el ID se
+            puede usar para identificar un solo elemento, mientras que una clase se puede usar para agrupar
+            más de uno.</p>
+        
+        <h2>Manos a la obra</h2>
+        <p>Actividad: Presentación Personal – Estilos CSS</p>
+
+        <h3>PRIORIDAD EN APLICACIÓN DE ESTILOP</h3>
+        <p>Ahora que entendemos los selectores en CSS, tenemos que entender como priorizar los estilos en
+            CSS, para saber qué estilo hace efecto y cuál no sobre determinado elemento.</p>
+        <p><strong>HERENCIA</strong></p>
+        <p>Los hijos heredan los estilos de sus elementos padres, no es necesario declarar sus estilos si
+            estos se mantienen igual.</p>
+        <img src="herencia.png" alt="herencia">
+        <p><strong>CASCADA</strong></p>
+        <p>Todo estilo sobrescribe a uno anterior. </p>
+        <img src="cascada.png" alt="cascada">
+        <p><strong>ESPECIFICIDAD</strong></p>
+        <p>Cuando hay conflictos de estilos el navegador aplica sólo el de mayor especificidad.</p>
+        <img src="especificidad.png" alt="especificidad">
+        <h3>¿QUÉ ES EL MODELO DE CAJA?</h3>
+        <p><strong>El modelo de cajas o "box model"</strong> es seguramente la característica más importante del lenguaje
+            de hojas de estilos CSS, ya que condiciona el diseño de todas las páginas web. El modelo de
+            cajas es el comportamiento de CSS que hace que todos los elementos de las páginas se
+            representen mediante cajas rectangulares.</p>
+        <p>Las cajas de una página se crean automáticamente. Cada vez que se inserta una etiqueta HTML,
+            se crea una nueva caja rectangular que encierra los contenidos de ese elemento. La siguiente
+            imagen muestra las tres cajas rectangulares que crean las tres etiquetas HTML que incluye la
+            página:</p>
+        <img src="modelo caja.png" alt="modeloCaja">
+        <p>Las cajas de las páginas no son visibles a simple vista porque inicialmente no muestran ningún
+            color de fondo ni ningún borde.</p>
+        <p>Los navegadores crean y colocan las cajas de forma automática, pero CSS permite modificar todas
+            sus características. Cada una de las cajas está formada por cuatro partes, tal y como muestra la
+            siguiente imagen:</p>
+        <img src="cajas.png" alt="caja">
+        <ul>
+            <li><strong>Contenido (content):</strong> se trata del contenido HTML del elemento (las palabras de un
+                párrafo, una imagen, el texto de una lista de elementos, etc.)</li>
+            <li><strong>Relleno (padding):</strong> espacio libre opcional existente entre el contenido y el borde.</li>
+            <li><strong>Borde (border):</strong> línea que encierra completamente el contenido y su relleno.</li>
+            <li><strong>Margen (margin):</strong> separación opcional existente entre la caja y el resto de las cajas
+                adyacentes.</li>
+            <p>Existen otras dos partes de una caja que son:</p>
+            <li><strong>Imagen de fondo (background image):</strong> imagen que se muestra por detrás del contenido y
+                el espacio de relleno.</li>
+            <li><strong>Color de fondo (background color):</strong> color que se muestra por detrás del contenido y el
+                espacio de relleno.</li>
+        </ul>
+    <p>El relleno y el margen son transparentes, por lo que en el espacio ocupado por el relleno se
+    muestra el color o imagen de fondo (si están definidos) y en el espacio ocupado por el margen se
+    muestra el color o imagen de fondo de su elemento padre (si están definidos). Si ningún elemento
+    padre tiene definido un color o imagen de fondo, se muestra el color o imagen de fondo de la
+    propia página (si están definidos).</p>
+    <p>Si una caja define tanto un color como una imagen de fondo, la imagen tiene más prioridad y es la
+        que se visualiza. No obstante, si la imagen de fondo no cubre totalmente la caja del elemento o si
+        la imagen tiene zonas transparentes, también se visualiza el color de fondo. Combinando
+        imágenes transparentes y colores de fondo se pueden lograr efectos gráficos muy interesantes.</p>
+    <h3>PSEUDO-CLASES</h3>
+    <p>CSS también permite aplicar diferentes estilos a un mismo enlace en función de su estado.
+        De esta forma, es posible cambiar el aspecto de un enlace cuando por ejemplo el usuario pasa el
+        ratón por encima o cuando el usuario pincha sobre ese enlace.</p>
+    <p>Como con los atributos id o class no es posible aplicar diferentes estilos a un mismo elemento en
+        función de su estado, CSS introduce un nuevo concepto llamado pseudo-clases. En concreto,
+        CSS define las siguientes cuatro pseudo-clases:</p>
+    <ul>
+        <li><strong>:link,</strong> aplica estilos a los enlaces que apuntan a páginas o recursos que aún no han sido
+            visitados por el usuario. </li>
+        <li><strong>:visited,</strong> aplica estilos a los enlaces que apuntan a recursos que han sido visitados
+            anteriormente por el usuario. El historial de enlaces visitados se borra automáticamente
+            cada cierto tiempo y el usuario también puede borrarlo manualmente.</li>
+        <li><strong>:hover,</strong> aplica estilos al enlace sobre el que el usuario ha posicionado el puntero del ratón.</li>
+        <li><strong>:active,</strong> aplica estilos al enlace que está clickeado el usuario. </li>
+    </ul>
+    <img src="pseudo-clases.png" alt="pseudoclases">
+    <h2>BOOTSTRAP</h2>
+    <p>Es un framework de interfaz de usuario, de código abierto, creado para un desarrollo web más
+        rápido y sencillo. Mark Otto y Jacob Thornton fueron los creadores iniciales. El framework
+        combina CSS y JavaScript para estilizar los elementos de una página HTML.</p>
+    <p>Contiene todo tipo de plantillas de diseño basadas en HTML y CSS para diversas funciones y
+        componentes, como navegación, sistema de cuadrícula, carruseles de imágenes y botones.</p>
+    <p>Si bien Bootstrap ahorra tiempo al desarrollador de tener que administrar las plantillas
+        repetidamente, su objetivo principal es crear sitios responsive. Permite que la interfaz de usuario
+        de un sitio web funcione de manera óptima en todos los tamaños de pantalla, ya sea en teléfonos
+        de pantalla pequeña o en dispositivos de escritorio de pantalla grande.</p>
+    <p>Por lo tanto, los desarrolladores no necesitan crear sitios específicos para dispositivos y limitar su
+        rango de audiencia.</p>
+    <h3>ARCHIVOS PRIMARIOS DE BOOTSRAP</h3>
+    <p>Ya sabemos qué es Bootstrap; consiste en una colección de sintaxis que realizan funciones
+        específicas. Debido a esto, tiene sentido que el marco tenga solo tres diferentes tipos de
+        archivos. A continuación, detallamos los tres archivos principales que administran esta interfaz de
+        usuario y la funcionalidad de un sitio web.</p>
+    <h3>BOOTSTRAP.CSS</h3>
+    <p>Esta es la hoja de estilos de bootstrap, gracias a esta podremos implementar estilos ya definidos y
+        así estilizar nuestra página de una manera sencilla. Además, las plantillas que contiene bootstrap,
+        usan esta hoja de estilos</p>
+    <h3>BOOTSTRAP.JS</h3>
+    <p>Este archivo es la parte principal de Bootstrap. Consiste en archivos JavaScript que son
+        responsables de la interactividad del sitio web.</p>
+    <h3>CÓMO USAR BOOTSTRAP</h3>
+    <p>Para utilizar bootstrap lo único que vamos a tener que hacer es ir a estas dos páginas:</p>
+    <p>https://getbootstrap.com/docs/4.5/getting-started/introduction/#css</p>
+    <p>https://getbootstrap.com/docs/4.5/getting-started/introduction/#js</p>
+    <p>Dentro de estas dos páginas vamos a encontrar una etiqueta link para el CSS de Bootstrap y unas
+        etiquetas script para el JavaScript de Bootstrap. </p>
+    <h2>Para poder usar Bootstrap lo que haremos es pegar el link con la hoja de estilos de Bootstrap en
+        la etiqueta < head> de nuestro html y las etiquetas script antes de la etiqueta de cierre < /body>. </h2>
+    <img src="ejemploBootstrap.png" alt="ejemploBootstrap">
+    <h3>PLANTILLAS</h3>
+    <p>Dado que es uno de los framework más utilizados, podemos encontrar un amplio abanico de
+        marcos de trabajo pensados y diseñados a partir de los componentes y estilos que presenta
+        Bootstrap, de modo que existen variables y ejemplos listos para utilizar en proyectos específicos. </p>
+    <p>https://themes.getbootstrap.com/official-themes/</p>
+        
+</body>
+
+</html>

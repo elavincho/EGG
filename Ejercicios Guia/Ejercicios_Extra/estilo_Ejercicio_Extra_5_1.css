@@ -1,0 +1,10 @@
+body{
+    /*background-image: url(fondoEjeExtra4/fondo3.jpg);*/
+    background-color: rgb(68, 69, 70);
+}
+.precio{
+
+    background-color: darkgrey;
+    text-align: center;
+    vertical-align: middle;
+}

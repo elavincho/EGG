@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejercicio 6</title>
+  </head>
+  <body>
+    <h1>Registrar un usuario</h1>
+    <section>
+      <div>
+        <form action="">
+          <div>
+            <label>Nombre del usuario</label><br />
+            <input type="text" name="nombre" />
+          </div>
+          <div>
+            <label>Contraseña del usuario</label><br />
+            <input type="password" name="password" />
+          </div>
+          <div>
+            <label>Edad del usuario</label><br />
+            <input type="number" name="edad" min="18"/>
+          </div>
+          <div>
+            <label>Fecha de nacimiento del usuario</label><br />
+            <input
+              type="date"
+              name="fechaNacimiento"
+              min="01-01-1950"
+              max="01-01-2023"
+            />
+          </div>
+          <div>
+            <label>Sexo del Usuario</label><br />
+            <input type="radio" />
+            <label for="radio-input">Hombre</label><br />
+            <input type="radio" />
+            <label for="radio">Mujer</label><br />
+            <input type="radio" />
+            <label for="radio-input">Prefiero no decir</label>
+          </div>
+          <div>
+            <label>País de nacimiento del usuario</label>
+            <select name="pais" id="pais" class="input">
+              <option value="arg">Argentina</option>
+              <option value="par">Paraguay</option>
+              <option value="bra">Brasil</option>
+            </select>
+          </div>
+          <div>
+            <button type="submit">Enviar</button>
+            <button type="reset">Borrar</button>
+        </div>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>

@@ -1,0 +1,18 @@
+*{
+    background-color: rgb(4, 54, 54);
+    font-family: sans-serif;
+}
+h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande';
+    font-size: 36px;
+    color: rgb(237, 241, 245);
+}
+p.uno{
+    color: rgb(242, 244, 247);
+    font-family: Verdana;
+
+}
+p.dos{
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+}

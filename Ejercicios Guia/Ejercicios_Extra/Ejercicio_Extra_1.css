@@ -1,0 +1,16 @@
+#uno{
+    list-style-type: square;
+    color: green;
+}
+#dos{
+    list-style-type: georgian;
+    color: red;
+}
+#tres{
+    list-style-type: lower-alpha;
+    color: yellow;
+}
+#cuatro{
+    list-style-type: decimal;
+    color: blue;
+}
