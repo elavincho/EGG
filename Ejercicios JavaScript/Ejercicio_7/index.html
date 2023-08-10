@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 7</title>
+</head>
+<body>
+    <h1>Ejercicio 7</h1>
+    <p>Escriba un programa en el cual se ingrese un valor límite positivo, y a continuación
+        solicite números al usuario hasta que la suma de los números introducidos supere el
+        límite inicial. </p>
+    
+    <div>
+        <label for="limite">Ingrese un Numero Limite</label>
+        <input type="number" id="limite" />
+        <button onclick="agreLimite()">Agregar</button>
+    </div>
+    <div>
+        <h4 id="valorLimite"></h4>
+    </div>
+    <div>
+        <label for="sumando">Numero a Sumar</label>
+        <input type="number" id="sumando" />
+        <button onclick="agregarNumero()">Sumar</button>
+    </div>
+    <div>
+        <h4 id="valorSuma"></h4>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
