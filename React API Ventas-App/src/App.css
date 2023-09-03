@@ -1,0 +1,73 @@
+#root {
+  min-height: 100vh;
+  /* con esto se ocupa el 100 % de la pantalla*/
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgb(253, 202, 60);
+  height: 70px;
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+}
+
+.footer {
+  border-top: 1px solid rgb(253, 202, 60);
+  height: 50px;
+  text-align: center;
+}
+
+.productos {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  
+  gap: 30px;
+}
+
+.producto {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: start;
+  height: 200px;
+ 
+}
+
+.producto img {
+  width: 150px;
+  height: 150px;
+  text-align: start;
+}
+
+.producto .fav-icon {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.producto .info {
+  width: 400px;
+}
+
+.detalle {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  flex: 1;
+}
+
+.detalle img {
+  width: 300px;
+  height: 300px;
+}
+
