@@ -1,0 +1,44 @@
+.container{
+    background-color: lightblue;
+    padding: 20px;
+    display: grid;
+    
+    
+    /* grid-template-columns: 100px 100px 100px; */
+    /* grid-template-columns: 100px 100px 100px 100px; */
+    /* grid-template-columns: 50% 30% 20%; */
+    /* grid-template-columns: auto auto auto; */
+
+    
+    /* grid-template-columns: 1fr 1fr; */
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    /* grid-template-columns: 3fr 2fr 1fr; Numerador es el de arriba */
+
+    /*Repeat te repite la cant de columnas en función del tamaño*/
+    /* grid-template-columns: repeat(3, 1fr); */
+    /* grid-template-columns: repeat(2, 1fr); */
+
+    /*Separación*/
+    /*Separacion entre columnas*/
+    /* column-gap: 10px; */ 
+    /*Separacion entre filas*/
+    /* row-gap: 30px; */
+    /*Separacion entre columnas y filas*/
+    /* gap: 20px; */
+
+    /*Filas*/
+    /* grid-template-rows: 50px 150px 100px; */
+    /* grid-template-rows: 2fr 1fr 3fr; */
+    /* height: 100vh; */
+    /*Agrego para q las filas siguientes tomen este valor*/
+    /* grid-auto-rows: 3fr;  */
+}
+
+.box{
+    background-color:blue;
+    padding: 10px;
+    color: red;
+    text-align: center;
+    color: white;
+    border: 1px dotted white;
+}

@@ -1,0 +1,37 @@
+.contenedor{
+    background-color: navy;
+    padding: 10px;
+
+    
+    /* display: grid; */
+    /* grid-template-columns: 200px 200px 200px; */
+    /* justify-content: start; */
+    /* Cambio valores de alineación*/
+    /* justify-content: end; */
+    /* justify-content: center; */
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    /* justify-content: space-evenly; */
+
+    /*Comentar la última la propiedad justify-content*/
+    /*Agrando el contenido del contenedor padre*/
+    /* height: 500px;  */
+    /*Limito el tamaño de las filas*/
+    /* grid-template-rows: 100px 100px; */
+    /*Cambio alineaciones de las filas*/
+    /* align-content: start; */
+    /* Cambio valores de alineación*/
+    /* align-content: end; */
+    /* align-content: center; */
+    /* align-content: space-between; */
+    /* align-content: space-around; */
+    /* align-content: space-evenly; */
+    
+
+}
+.hijo{
+    background-color: lightblue;
+    text-align: center;
+    border: 1px solid white;
+    padding: 10px;
+}
